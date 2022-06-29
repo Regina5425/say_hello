@@ -69,6 +69,7 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 30px;
 }
 
 .hello__left {
@@ -78,20 +79,20 @@ img {
 }
 
 .hello__say {
-	max-width: 600px;
+	max-width: 650px;
 }
 
 .hello__title {
 	margin-bottom: 20px;
 	font-weight: 700;
-	font-size: 3rem;
+	font-size: 3vw;
 	line-height: 1.2;
 }
 
 .hello__text {
 	margin-bottom: 60px;
 	font-weight: 400;
-	font-size: 2rem;
+	font-size: 2vw;
 	line-height: 1.2;
 }
 
@@ -102,7 +103,7 @@ img {
 .hello__btn {
 	padding: 30px 40px;
 	font-weight: 700;
-	font-size: 2rem;
+	font-size: 2vw;
 	border: 2px solid #6072bb;
 	border-radius: 20px;
 	color: #2d1b1b;
@@ -117,6 +118,28 @@ img {
 }
 
 /*===========media========*/
-@media (max-width: 1200px) {
-	
+@media (max-width: 1000px) {
+	.hello {
+		flex-direction: column;
+	}
+
+	.hello__left {
+		margin-bottom: 25px;
+	}
+
+	.hello__say {
+		text-align: center;
+	}
+
+	.hello__title {
+		font-size: 30px;
+	}
+
+	.hello__text {
+		font-size: 24px;
+	}
+
+	.hello__btn {
+		font-size: 24px;
+	}
 }
