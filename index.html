@@ -18,7 +18,28 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-		<link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <section class="hello">
+        <div class="hello__left">
+          <div class="hello__say">
+            <h1 class="hello__title">Привет! Меня зовут Холо!</h1>
+            <p class="hello__text">
+              Я робот-программист. Я написал свою первую программу-приветствие.
+            </p>
+            <p class="hello__text">
+              Давай попробуем ее запустить. Нажми, пожалуйста, на кнопку
+            </p>
+          </div>
+					<button class="hello__btn btn-reset" onclick="getName()">Нажми кнопку</button>
+        </div>
+				<div class="hello__right">
+					<img src="img/robot.png" alt="robot Holo" />
+				</div>
+      </section>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
 </html>
