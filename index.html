@@ -33,7 +33,13 @@
               Давай попробуем ее запустить. Нажми, пожалуйста, на кнопку
             </p>
           </div>
-					<button class="hello__btn btn-reset" onclick="getName()">Нажми кнопку</button>
+					<button class="hello__btn btn-reset" onclick="btnClick()">Нажми кнопку</button>
+					<div class="hello__input">
+						<label for="user-name" class="user-name">Как тебя зовут?</label>
+						<input type="text" name="user-name" id="user-name" class="input">
+						<button type="submit" class="input__btn btn-reset" onclick="getUserName()">Ok</button>
+						<div class="output" onclick="changeBackgroundColor()">Твое имя: </div>
+					</div>
         </div>
 				<div class="hello__right">
 					<img src="img/robot.png" alt="robot Holo" />
